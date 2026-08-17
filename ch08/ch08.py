@@ -26,7 +26,7 @@ from sklearn.model_selection import cross_val_score
 import gzip
 from sklearn.feature_extraction.text import HashingVectorizer
 from sklearn.linear_model import SGDClassifier
-from distutils.version import LooseVersion as Version
+from packaging.version import Version
 from sklearn import __version__ as sklearn_version
 from sklearn.decomposition import LatentDirichletAllocation
 

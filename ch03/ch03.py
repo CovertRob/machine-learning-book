@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score
 from matplotlib.colors import ListedColormap
 import matplotlib.pyplot as plt
 import matplotlib
-from distutils.version import LooseVersion
+from packaging.version import Version as LooseVersion
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.linear_model import SGDClassifier
