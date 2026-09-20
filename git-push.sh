@@ -1,0 +1,1 @@
+GIT_ASKPASS= SSH_ASKPASS= git -c credential.helper= -c core.askPass= -c credential.username=CovertRob push
